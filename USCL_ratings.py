@@ -44,8 +44,8 @@ rating = dict()
 
 #	Format of substring representing a match:
 #	<tr><td>1. Philadelphia Inventors vs New England Nor'easters</td><td>New England 3-1 </td></tr>
-#   ^          ^                      ^                         ^        ^            ^
-#   i          i+11                   i+j                       i+j+k    i+j+k+9      i+j+k+l
+#	^          ^                      ^                         ^        ^            ^
+#	i          i+11                   i+j                       i+j+k    i+j+k+9      i+j+k+l
 #
 #	First team's name: begins at i+11 (inclusive), ends at i+j-1 (exclusive)
 #	Second team's name: begins at i+j+3 (inclusive), ends at i+j+k (exclusive)
